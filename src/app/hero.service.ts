@@ -16,7 +16,7 @@ const httpOptions = {
 
 export class HeroService {
 
-    private heroesUrl = 'api/heroes';  // URL to web api Разобраться с api
+    private heroesUrl = 'api/heroes';  // URL to web api
 
     constructor(private messageService: MessageService,
                 private http: HttpClient) { }
